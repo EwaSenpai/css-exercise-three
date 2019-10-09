@@ -7,7 +7,6 @@ body {
   background-color: #FFFFFF;
   font-family: Helvetica;
   font-size: 18px;
-  width: 420;
   line-height: 1.2em;
 }
 
@@ -30,7 +29,6 @@ nav {
 
 nav .arrow-left {
   background-color: #000000;
-  display: ;
   margin: 0px;
   height: 50px;
   padding: 0;
@@ -41,9 +39,9 @@ nav .arrow-left {
 div {
   box-sizing: border-box;
   display: inline-block;
-  align-content: middle;
-  margins: 0 auto;
-  width: px;
+  align-content: center;
+  margin: 0 auto;
+
 }
 
 i.fa.fa-chevron-left.fa-inverse.fa-2x::before {
@@ -59,8 +57,7 @@ i.fa.fa-chevron-left.fa-inverse.fa-2x::before {
   box-sizing: border-box;
   float: right;
   display: inline-block;
-  background-color: #0000
-  margin: 50px;
+  background-color: #0000;
 }
 
 .location {
